@@ -169,13 +169,57 @@ section ul{
   cursor:pointer;
 }
 
+.button_materias:hover{
+  color:#0D3B66;
+  background:#FAF0CA;
+  border:2.5px solid #0D3B66;
+}
+
+.botao_atividades{
+  height: 50px;
+  width: 200px;
+  position:relative;
+  left:42%;
+  color: #FAF0CA;
+  background:#0D3B66;
+  border:2.5px solid #FAF0CA;
+  border-radius:42px;
+  text-align: center;
+  margin: 2.5% auto 0px;
+  font-weight:bold;
+	text-decoration:none;
+  cursor:pointer;
+}
+
+.botao_atividades:hover{
+  color:#0D3B66;
+  background:#FAF0CA;
+  border:2.5px solid #0D3B66;
+}
+
 .botao_topo{
-  display: none;
+  background-color: transparent;
+  color:#FAF0CA;
+  border: 3px solid #FAF0CA;
+  border-radius: 10px;
+  height: 70px;
+  width: 200px;
+  position:relative;
+  left:36%;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+}
+
+.botao_topo:hover{
+  color:#F95738;
+  border: 3px solid #F95738;
+  text-decoration: underline;
 }
 
 #contato a{
   display: inline-block;
-  display: none;
+
 }
 
 #contato{
@@ -187,6 +231,8 @@ section ul{
   position: static;
   min-height: 150px;
 }
+
+
 
 @media screen and (max-width: 1024px) {
     .topo{
