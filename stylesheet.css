@@ -188,7 +188,7 @@ section ul{
   min-height: 150px;
 }
 
-@media screen (max-width:1024px){
+@media screen and (max-width: 1024px) {
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
     }
