@@ -175,16 +175,30 @@ section ul{
 
 #contato a{
   display: inline-block;
-  background-image: url("./light.png");
   display: none;
 }
 
 #contato{
-  background-image: url("./light.png") !important;
+  background-image: url("./light.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: static;
   min-height: 150px;
+}
+
+@media (max-width:768px){
+    .topo{
+      background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+    }
+
+    #contato{
+      background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+    }
+
+    #estudo article{
+      background: linear-gradient(to top, #003973, #FAF0CA);
+    }
+
 }
