@@ -247,4 +247,18 @@ section ul{
       background: linear-gradient(to top, #003973, #FAF0CA);
     }
 
+    .botao_topo{
+      /* background-color: transparent;
+      color:#FAF0CA;
+      border: 3px solid #FAF0CA;
+      border-radius: 10px; */
+      max-height: 70px !important;
+      max-width: 100px !important;
+      /* position:relative;
+      left:36%;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block; */
+    }
+
 }
