@@ -327,6 +327,12 @@ section ul{
     .botao_topo{
       max-height: 80px !important;
       max-width: 120px !important;
+      border: 3px solid #FAF0CA;
+      text-decoration: none;
+    }
+
+    .botao_topo:hover{
+      text-decoration: underline;
     }
 
 }
