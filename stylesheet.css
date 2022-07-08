@@ -335,3 +335,145 @@ section ul{
     }
 
 }
+
+/* Chrome, Safari, and also the Edge Browser and Firefox */
+@media and (-webkit-min-device-pixel-ratio:0) {
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* IE10+ */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* IE6,7,9,10 */
+@media screen and (min-width: 640px), screen\9 {
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* IE6,7 */
+@media screen\9 {
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* IE8 */
+@media \0screen {
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* IE9,10 */
+@media screen and (min-width:0\0){
+  .topo{
+    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+  }
+
+  #contato{
+    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+  }
+
+  #estudo article{
+    background: linear-gradient(to top, #003973, #FAF0CA);
+  }
+}
+
+/* Safari 11+ */
+@media not all and (min-resolution:.001dpcm){
+  @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+    .topo{
+      background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+    }
+
+    #contato{
+      background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+    }
+
+    #estudo article{
+      background: linear-gradient(to top, #003973, #FAF0CA);
+    }
+  }
+}
+/* Test website on real Safari 11+ */
+
+/* Safari 10.1 */
+@media not all and (min-resolution:.001dpcm){
+  @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
+    .topo{
+      background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+    }
+
+    #contato{
+      background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+    }
+
+    #estudo article{
+      background: linear-gradient(to top, #003973, #FAF0CA);
+    }
+  }
+}
+
+/* Safari 6.1-10.0 (but not 10.1) */
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){
+  @media {
+    .topo{
+      background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
+    }
+
+    #contato{
+      background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
+    }
+
+    #estudo article{
+      background: linear-gradient(to top, #003973, #FAF0CA);
+    }
+  }
+}
