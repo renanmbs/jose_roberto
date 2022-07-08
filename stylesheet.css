@@ -92,14 +92,16 @@ nav a:hover{
 }
 
 section h2{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color:#0D3B66;
   background-color:#FAF0CA;
   padding-bottom: 1%;
 }
 
 section h3{
-  text-align: center;
+  display: flex;
+  justify-content: center;
   color:#F95738;
 }
 
@@ -156,14 +158,11 @@ section ul{
 .button_materias{
   height: 50px;
   width: 200px;
-  position:relative;
-  left:43%;
   color: #FAF0CA;
   background:#0D3B66;
   border:2.5px solid #FAF0CA;
   border-radius:42px;
   text-align: center;
-  margin: 2.5% auto 0px;
   font-weight:bold;
 	text-decoration:none;
   cursor:pointer;
@@ -178,14 +177,11 @@ section ul{
 .botao_atividades{
   height: 50px;
   width: 200px;
-  position:relative;
-  left:42%;
   color: #FAF0CA;
   background:#0D3B66;
   border:2.5px solid #FAF0CA;
   border-radius:42px;
   text-align: center;
-  margin: 2.5% auto 0px;
   font-weight:bold;
 	text-decoration:none;
   cursor:pointer;
@@ -204,11 +200,15 @@ section ul{
   border-radius: 10px;
   height: 70px;
   width: 200px;
-  position:relative;
-  left:36%;
   text-decoration: none;
   text-align: center;
   display: inline-block;
+  margin: 0px 3px;
+}
+
+.meio{
+    display: flex;
+    justify-content: center;
 }
 
 .botao_topo:hover{
@@ -217,9 +217,21 @@ section ul{
   text-decoration: underline;
 }
 
+.botao_contato{
+  background-color: transparent;
+  color:#FAF0CA;
+  border: 3px solid #FAF0CA;
+  border-radius: 10px;
+  height: 70px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 3px;
+}
+
 #contato a{
   display: inline-block;
-
 }
 
 #contato{
@@ -228,7 +240,6 @@ section ul{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: static;
   min-height: 150px;
 }
 
