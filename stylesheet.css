@@ -246,6 +246,7 @@ section ul{
 .botao_topo:hover{
   color:#F95738;
   border: 3px solid #F95738;
+  cursor:pointer;
 }
 
 .botao_contato{
@@ -265,6 +266,7 @@ section ul{
   color:#FAF0CA;
   background:#0D3B66;
   border:2.5px solid #FAF0CA;
+  cursor:pointer;
 }
 
 #atividades{
