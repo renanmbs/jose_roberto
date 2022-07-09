@@ -366,21 +366,6 @@ section ul{
   }
 }
 
-/* IE6,7,9,10 */
-@media screen and (min-width: 640px), screen\9 {
-  .topo{
-    background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
-  }
-
-  #contato{
-    background: linear-gradient(to right bottom, #003973 70%, #FAF0CA);
-  }
-
-  #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
-}
-
 /* IE6,7 */
 @media screen\9 {
   .topo{
