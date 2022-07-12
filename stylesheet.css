@@ -310,6 +310,18 @@ section ul{
   padding: 5px;
 }
 
+#doc a{
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+#doc a:hover{
+  text-align: center;
+  text-decoration: underline #FAF0CA;
+  color: #F95738CF;
+}
+
 @media screen and (max-width: 1024px) {
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
