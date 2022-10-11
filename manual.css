@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color:#0D3B66;
+}
+
+h1{
+    color:#FAF0CA;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2,h3{
+    color:#F4D35E;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+    color:#FAF0CA;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    filter: drop-shadow(0 0 4px #FAF0CA);
+    border:solid 5px #FAF0CA;
+}
+
+figure [src*="mk"]{
+    width: 500px;
+    height: 400px;
+}
+
+details{
+    color:#FAF0CA;
+    text-align: center;
+}
+
+table{
+    border: solid #FAF0CA;
+}
+
+td{
+    padding: 1%;
+}
+
+footer{
+    text-align: center;
+}
+
+.ajustes{
+    display: flex;
+    justify-content: center;
+}
+
+.ajustes h4{
+    color: #F4D35E;
+    text-transform: uppercase;
+}
+
+.tabela{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tabaju h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.ajustes{
+    color:#FAF0CA;
+    text-align: center;
+}
+
+.ajustes h4{
+    color: #F4D35E;
+    text-transform: uppercase;
+}
+
+.ajustes .he{
+    color: white;
+}
+
+.ajustes .bot{
+    color: #F4D35E;
+}
+
+.mostra{
+    margin: 1% 1%;
+    border: solid #FAF0CA;
+    text-align: center;
+    list-style: none;
+    padding-bottom: 1%;
+}
+
+.mostra p{
+    color:#ffff;
+}
+
+.mostra small{
+    color: rgb(188, 188, 0);
+}
+

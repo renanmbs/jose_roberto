@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Presente de Natal</title>
+    <link href="./manual.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Manual do Presente de Natal</h1>
+    <h2>Sistema de Sensores</h2>
+    
+    <figure>
+        <img src="./mk.jpg" alt="Arduino Ópla Kit">
+        <figcaption>Arduino Ópla Kit</figcaption>
+        <small>
+            <details>
+                <summary>Detalhes</summary>
+                Observação: Os botões no sistema mostram como 'Botões 0-4' invés de 'Botões 1-5'. Porém o manual usa a sequência de botões 
+                da foto.
+                <br><br>Logo:
+                <section class="tabela">
+                    <table border="1">
+                        <tr>
+                            <td>Botão no Sistema</td>
+                            <td>Botão na Foto</td>
+                        </tr>
+                        <tr>
+                            <td>0</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                    </table>
+                </section>
+            </details>
+        </small>
+    </figure>
+
+    <article class="tabaju">
+        <h3>Tabela de Ajustes</h3>
+        <section class="ajustes">
+
+            <table border="1">
+                <tr class="he">
+                    <td>Botão </td>
+                    <td>O que Faz</td>
+                </tr>
+                <tr>
+                    <td class="bot"> Botão 1</td>
+                    <td>Mostra a Temperatura</td>
+                </tr>
+                <tr>
+                    <td class="bot"> Botão 2</td>
+                    <td>Mostra a Humidade</td>
+                </tr>
+                <tr>
+                    <td class="bot"> Botão 3</td>
+                    <td>Liga/Desliga LEDs</td>
+                </tr>
+                <tr>
+                    <td class="bot"> Botão 4</td>
+                    <td>Modo dia/noite</td>
+                </tr>
+                <tr>
+                    <td class="bot"> Botão 5</td>
+                    <td>Liga/Desliga Alarme</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+    <h3>Utilidades</h3>
+
+    <section class="mostra">
+        <h4>Temperatura</h4>
+        <p>Mostra a temperatura do ambiente (em Celsius)</p>
+        <small>Para atualizar os valores, clique no botão da temperatura novamente </small>
+    </section>
+
+    <section class="mostra">
+        <h4>Humidade</h4>
+        <p>Mostra a humidade do ambiente (em porcentagem)</p>
+        <small>
+            <ul>
+                <li>O cículo azul aumenta de tamanho de acordo com a humidade</li>
+                <li>Para atualizar os valores, clique no botão da humidade novamente</li>
+            </ul>
+        </small>
+    </section>
+
+    <section class="mostra">
+        <h4>LEDs</h4>
+        <p>Ligado</p>
+        <small>
+            <ul>
+                <li>Temperatura: o brilho do LED aumenta de acordo com a temperatura</li>
+                <li>Humidade: o brilho do LED aumenta de acordo com a humidade</li>
+                <li>Alarme: se detectar movimento, LEDs vermelhos aparecem</li>
+                <li>Para desligar: clique no botão 3</li>
+            </ul>
+        </small>
+        <p>Desligado</p>
+        <small>
+            <ul>
+                <li>Desativa os LEDs em todas as funções</li>
+                <li>Para ligar: clique no botão 3</li>
+            </ul>
+        </small>
+    </section>
+
+    <section class="mostra">
+        <h4>Modo Dia/Noite</h4>
+        <p>Modo Dia</p>
+        <small>
+            <ul>
+                <li>Temperatura: cor de fundo da tela - Branco</li>
+            </ul>
+        </small>
+        <p>Modo Noite</p>
+        <small>
+            <ul>
+                <li>Temperatura: cor de fundo da tela - Preto</li>
+            </ul>
+        </small>
+        
+    </section>
+
+    <section class="mostra">
+        <h4>Alarme</h4>
+        <figure>
+            <img src="./pir.png" alt="Sensor de Movimento">
+            <figcaption>Como Instalar o Sensor de Movimento</figcaption>
+        </figure>
+
+        <p>Ligado</p>
+        <small>
+            <ul>
+                <li>Sensor de movimento liga, detectando movimento</li>
+                <li>Se movimento é detectado, sistema vai apitar (até movimento parar de ser detectado)</li>
+                <li>Vai aparecer uma mensagem 'Movimento Detectado!' na tela</li>
+                <li>LEDs vermelhos vão ser ativados - se opção LED estiver ligado (Botão 3)</li>
+                <li>Para ligar alarme, clique no botão 5</li>
+                <li>OBS: se o sistema não parar de apitar, é porque o sensor está instalado do lado errado - checar se o sensor está instalado igual a foto acima</li>
+            </ul>
+        </small>
+        <p>Desligado</p>
+        <small>
+            <ul>
+                <li>Para desligar alarme, clique no botão 5</li>
+            </ul>
+        </small>
+
+        
+    </section>
+
+
+    <details>
+        <summary>Equipamento Usado</summary>
+        <ul>
+            <li>- Arduino Ópla Kit</li>
+            <li>- Sensor de Movimento</li>
+            <li>- Cabo Micro-USB</li>
+        </ul>
+    </details>
+
+    <footer>
+        <p>Presente de Natal 2022</p>
+        <p>Morgan/Ogden - Utah, Estados Unidos</p>
+        <p>Feliz Natal Pai - Te Amo</p>
+    </footer>
+</body>
+</html>
