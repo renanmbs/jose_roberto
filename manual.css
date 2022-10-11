@@ -114,3 +114,14 @@ footer{
     color: rgb(188, 188, 0);
 }
 
+@media only screen and (max-width: 600px) {
+    img{
+        height: 150px;
+        width: 200px;
+    }
+
+    figure [src*="mk"]{
+        height: 150px;
+        width: 200px;
+    }
+  }
