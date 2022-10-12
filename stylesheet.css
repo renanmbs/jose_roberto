@@ -347,12 +347,24 @@ section ul{
 }
 
 @media screen and (max-width: 1023px) {
+  
+  section h2{
+    display: flex;
+    justify-content: center;
+    color:#0D3B66;
+    background-color:#FAF0CA;
+    padding-bottom: 1%;
+  }
+
+  #estudo ul{
+    padding: 0% 0% 0% 0%;
+  }
 
   #estudo li{
    border-right: solid #FAF0CA;
    border-left: solid #FAF0CA;
    margin: 0 0 !important;
-   padding-top: 1rem;
+   padding: 1rem 0;
   }
 
   .bot{
@@ -391,7 +403,7 @@ section ul{
 
   header{
     width: 100%; 
-    height: 3.5rem;
+    height: 3.8rem;
   }
 
   img[src*="jose"]{
@@ -420,6 +432,11 @@ section ul{
       max-width: 120px !important;
       border: 3px solid #FAF0CA;
       text-decoration: none;
+    }
+
+    .botao_contato{
+      height: 50px;
+      width: 170px;
     }
 
 }
