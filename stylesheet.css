@@ -361,6 +361,10 @@ section ul{
     padding-bottom: 1%;
   }
 
+  h3{
+    text-align: center;
+  }
+
   #estudo ul{
     padding: 0% 0% 0% 0%;
   }
@@ -408,7 +412,8 @@ section ul{
 
   header{
     width: 100%; 
-    height: 3.8rem;
+    height: 4rem;
+    font-size: x-small;
   }
 
   img[src*="jose"]{
