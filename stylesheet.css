@@ -347,6 +347,11 @@ section ul{
 }
 
 @media screen and (max-width: 1023px) {
+
+  nav a{
+    font-size: small;
+  }
+  
   
   section h2{
     display: flex;
