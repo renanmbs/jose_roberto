@@ -346,7 +346,63 @@ section ul{
   color: #F95738CF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
+
+  #estudo li{
+   border-right: solid #FAF0CA;
+   border-left: solid #FAF0CA;
+   margin: 0 0 !important;
+   padding-top: 1rem;
+  }
+
+  .bot{
+    border-bottom: solid #FAF0CA;
+  }
+
+  #contato p:hover{
+    text-shadow: 0 0 0;
+  }
+
+  .botao_topo{
+    text-shadow: 0px 0px 0px #000000;
+  }
+  
+  .meio p{
+    text-shadow: 0px 0px 0px #000000;
+  }
+
+  #estudo article{
+    text-shadow: 0px 0px 0px #000000;
+  }
+  
+  #estudo p:hover{
+    text-shadow:0px 0px 0px #003973;
+  }
+
+  .topo{
+    text-shadow: 0px 0px 5px #000000;
+  }
+
+  #estudo img{
+    width: 100px;
+    height: 90px;
+
+  }
+
+  header{
+    width: 100%; 
+    height: 3.5rem;
+  }
+
+  img[src*="jose"]{
+    width: 200px;
+    height: 150px;
+    border-radius: 150px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #FAF0CA;
+  }
+
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
     }
@@ -356,8 +412,8 @@ section ul{
     }
 
     #estudo article{
-      background: linear-gradient(to top, #003973, #FAF0CA);
-    }
+      background: #003973 !important; 
+  }
 
     .botao_topo{
       max-height: 80px !important;
@@ -366,13 +422,21 @@ section ul{
       text-decoration: none;
     }
 
-    .botao_topo:hover{
-      text-decoration: underline;
-    }
 }
 
 /* Chrome, Safari, and also the Edge Browser and Firefox */
 @media and (-webkit-min-device-pixel-ratio:0) {
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   .topo{
     background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
   }
@@ -382,12 +446,23 @@ section ul{
   }
 
   #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
+    background: #003973 !important; 
+}
 }
 
 /* IE10+ */
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   .topo{
     background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
   }
@@ -397,12 +472,23 @@ section ul{
   }
 
   #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
+    background: #003973 !important; 
+}
 }
 
 /* IE6,7 */
 @media screen\9 {
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   .topo{
     background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
   }
@@ -412,12 +498,23 @@ section ul{
   }
 
   #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
+    background: #003973 !important; 
+}
 }
 
 /* IE8 */
 @media \0screen {
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   .topo{
     background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
   }
@@ -427,12 +524,23 @@ section ul{
   }
 
   #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
+    background: #003973 !important; 
+}
 }
 
 /* IE9,10 */
 @media screen and (min-width:0\0){
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   .topo{
     background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
   }
@@ -442,12 +550,23 @@ section ul{
   }
 
   #estudo article{
-    background: linear-gradient(to top, #003973, #FAF0CA);
-  }
+    background: #003973 !important; 
+}
 }
 
 /* Safari 11+ */
 @media not all and (min-resolution:.001dpcm){
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
+
   @supports (-webkit-appearance:none) and (stroke-color:transparent) {
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
@@ -458,14 +577,24 @@ section ul{
     }
 
     #estudo article{
-      background: linear-gradient(to top, #003973, #FAF0CA);
-    }
+      background: #003973 !important; 
+  }
   }
 }
 /* Test website on real Safari 11+ */
 
 /* Safari 10.1 */
 @media not all and (min-resolution:.001dpcm){
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
   @supports (-webkit-appearance:none) and (not (stroke-color:transparent)) {
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
@@ -476,13 +605,23 @@ section ul{
     }
 
     #estudo article{
-      background: linear-gradient(to top, #003973, #FAF0CA);
-    }
+      background: #003973 !important; 
+  }
   }
 }
 
 /* Safari 6.1-10.0 (but not 10.1) */
 @media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0){
+  #estudo li{
+    border-right: solid #FAF0CA;
+    border-left: solid #FAF0CA;
+    margin: 0 0 !important;
+    padding-top: 1rem;
+   }
+ 
+   .bot{
+     border-bottom: solid #FAF0CA;
+   }
   @media {
     .topo{
       background: linear-gradient(to right bottom, #003973 50%, #FAF0CA);
@@ -493,7 +632,7 @@ section ul{
     }
 
     #estudo article{
-      background: linear-gradient(to top, #003973, #FAF0CA);
-    }
+      background: #003973 !important; 
+  }
   }
 }
