@@ -370,6 +370,7 @@ section ul{
   }
 
   #estudo li{
+   border-top:  solid #FAF0CA;
    border-right: solid #FAF0CA;
    border-left: solid #FAF0CA;
    margin: 0 0 !important;
